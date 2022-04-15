@@ -54,9 +54,10 @@ input[type="button"] {
 }
 
 
-/* Step 12 below here */
 #divabout {
-  
+  width: 300px;
+  font-size: 20px;
+  margin: 10px;
 }
 
 
