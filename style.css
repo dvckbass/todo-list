@@ -9,7 +9,6 @@ ul {
 
 
 /* remove traditional bullet from front of list items */
-/* Step 3 below here */
 li {
   list-style-type: none;
   background-color: #eee;
@@ -19,7 +18,6 @@ li {
 }
 
 
-/* Step 5 below here */
 .done {
   background-color: green;
 }
@@ -30,7 +28,6 @@ li {
 
 
 /* mark task as finished */
-/* Step 6 below here */
 li.finished {
   color: white;
   background-color: gray;

@@ -25,7 +25,6 @@ function markDone(item) {
     item.className = "finished";
 }
 
-/* Step 7 below here */
 function remove(item) {
     // remove item completely from document
     if (item.className == "finished") {
