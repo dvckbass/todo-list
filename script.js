@@ -32,8 +32,11 @@ function remove(item) {
     }
 }
 
-/* Step 11 below here */
-function doAbout() {}
+function doAbout() {
+    var about = document.getElementById("divAbout");
+    about.innerHTML = "Author is Ardilla Latifasari";
+    about.className = "yellowbackground";
+}
 
 /* Step 14 below here */
 function clearAbout() {}
