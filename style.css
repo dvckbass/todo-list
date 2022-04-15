@@ -21,7 +21,11 @@ li {
 
 /* Step 5 below here */
 .done {
-  
+  background-color: green;
+}
+
+.remove {
+    background-color: red;
 }
 
 
