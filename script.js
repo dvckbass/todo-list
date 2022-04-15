@@ -11,6 +11,7 @@ function addTask() {
         item.innerHTML =
             '<input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" /> ' +
             '<input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" /> ' +
+            '<input type="button" class="important" onclick="important(this.parentNode)" value="!"/>' +
             newTask;
         // add new item as part of existing list
         document.getElementById("tasks").appendChild(item);
@@ -41,4 +42,8 @@ function doAbout() {
 function clearAbout() {
     var aboutDiv = document.getElementById("divAbout");
     aboutDiv.innerHTML = "";
+}
+
+function important(item) {
+    item.className = "important";
 }
