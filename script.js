@@ -38,5 +38,7 @@ function doAbout() {
     about.className = "yellowbackground";
 }
 
-/* Step 14 below here */
-function clearAbout() {}
+function clearAbout() {
+    var aboutDiv = document.getElementById("divAbout");
+    aboutDiv.innerHTML = "";
+}
