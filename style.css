@@ -32,7 +32,9 @@ li {
 /* mark task as finished */
 /* Step 6 below here */
 li.finished {
-  
+  color: white;
+  background-color: gray;
+  text-decoration: line-through;
 }
 
 input[type="text"] {
