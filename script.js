@@ -15,7 +15,8 @@ function addTask() {
         // add new item as part of existing list
         document.getElementById("tasks").appendChild(item);
 
-        /* Step 4 below here */
+        input.value = "";
+        input.placeholder = "Enter next task...";
     }
 }
 
